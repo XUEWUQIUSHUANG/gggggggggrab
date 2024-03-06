@@ -37,6 +37,7 @@ _autumn.addEventListener('click', () => {
         let a = document.createElement("a");
         a.href = "https://ys-api.mihoyo.com/event/download_porter/link/ys_cn/official/pc_default";
         a.click();
+        return 0;
     }
 
     _autumn.disabled = true;
