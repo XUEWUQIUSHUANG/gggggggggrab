@@ -33,6 +33,12 @@ let timeout;
 
 _autumn.addEventListener('click', () => {
 
+    if(_by.value=="1"){
+        let a = document.createElement("a");
+        a.href = "https://ys-api.mihoyo.com/event/download_porter/link/ys_cn/official/pc_default";
+        a.click();
+    }
+
     _autumn.disabled = true;
     _autumn.style.backgroundColor = 'gray';
     _autumn.style.cursor = 'not-allowed';
